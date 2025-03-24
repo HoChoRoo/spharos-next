@@ -1,5 +1,11 @@
+import SignInForm from "@/components/pages/auth/SignInForm";
 import React from "react";
 
 export default function SignIn() {
-  return <main>SignIn</main>;
+  //const handleSignIn = async (signInFormData: FormData) => {};
+  return (
+    <main>
+      <SignInForm />
+    </main>
+  );
 }
