@@ -1,5 +1,5 @@
 "use client";
-import { SessionContext } from "@/context/SessionCOntext";
+import { SessionContext } from "@/context/SessionContext";
 import React from "react";
 
 export const AuthContextProvider = ({
