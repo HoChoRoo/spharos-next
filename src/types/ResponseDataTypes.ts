@@ -19,3 +19,7 @@ export interface signInDataType {
   name: string;
   uuid: string;
 }
+
+export interface productCardDataType {
+  productOptionCode: string;
+}
